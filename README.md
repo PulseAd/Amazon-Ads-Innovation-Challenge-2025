@@ -61,6 +61,45 @@ Integrated ML models analyze advertising data to identify optimization opportuni
 **Scalable Performance Architecture**
 Built on FastAPI with async processing capabilities, the system handles concurrent user interactions efficiently. The agent architecture supports horizontal scaling to accommodate growing user bases while maintaining response quality.
 
+#### Agent Processing Flow & Reasoning Pattern
+
+![Agent Flow Diagram](agent_flow_diagram.png)
+
+**ReAct-Based Decision Making Process**
+PulsyAI implements a sophisticated ReAct (Reasoning and Acting) pattern that enables the agent to think through complex advertising queries systematically. The agent follows a structured cycle: **Thought → Action → Observation**, allowing for iterative problem-solving and comprehensive analysis.
+
+**Query Processing Workflow**
+1. **Initial Thought Phase**: The agent analyzes the user query, understanding context and determining the optimal approach for gathering relevant advertising data
+2. **Action Execution**: Based on reasoning, the agent selects appropriate tools and data sources to retrieve necessary information
+3. **Observation Analysis**: Results are evaluated and synthesized, with the agent determining if additional data gathering is required
+4. **Iterative Refinement**: The cycle repeats until sufficient information is collected to provide comprehensive insights
+5. **Response Generation**: Final answer compilation with actionable recommendations
+
+This iterative approach ensures thorough analysis while maintaining conversation flow and user engagement.
+
+#### Data Query Architecture & Semantic Search
+
+![Agent Query Architecture Diagram](agent_query_diagram.png)
+
+**Intelligent Data Discovery System**
+PulsyAI employs a sophisticated data discovery mechanism that transforms raw database schemas and examples into searchable knowledge repositories. This system enables natural language queries to be automatically translated into precise data operations.
+
+**Multi-Layer Indexing Strategy**
+- **Schema Extraction**: Automated parsing of table structures, column definitions, and relationships from Snowflake data warehouse
+- **Example-Based Learning**: Real advertising data samples are analyzed to understand data patterns and business context
+- **Dual Indexing Approach**: 
+  - Keyword indexing for exact matches and technical queries
+  - Embedding-based semantic search for conceptual and natural language queries
+
+**Query Intelligence & Security**
+The system implements intelligent query routing with built-in security controls:
+- **Semantic Search Engine**: User requirements are matched against indexed table specifications and examples using vector similarity
+- **Contextual Query Generation**: Relevant table schemas and examples are dynamically selected based on query intent
+- **Guard Rails & Policy Enforcement**: Automated security policies ensure data access compliance and prevent unauthorized queries
+- **Query Optimization**: Generated SQL queries are optimized for performance while maintaining data security standards
+
+This architecture enables users to ask complex business questions in natural language while ensuring secure, efficient access to vast advertising datasets.
+
 ### Data Sources and Integration
 
 *This section highlights key data sources utilized by PulsyAI. Beyond these primary sources, the system collects and leverages numerous additional data streams to provide comprehensive advertising intelligence and strategic insights.*

@@ -35,7 +35,31 @@ PulsyAI represents a paradigm shift from reactive data analysis to proactive str
 
 ### AI/ML Architecture Diagram
 
-[Snowflake architecture diagram including Cortex configuration will be placed here]
+![Agent Architecture](agent_diagram.png)
+
+The agent architecture diagram illustrates PulsyAI's intelligent AI agent system designed to deliver comprehensive advertising insights through a unified conversational interface. This streamlined single-agent approach ensures consistent user experience while maintaining sophisticated data processing capabilities.
+
+#### Core Agent Architecture
+
+**Unified Conversational AI Agent**
+PulsyAI operates through a single, highly capable AI agent that combines multiple specialized capabilities within one cohesive system. This agent handles natural language understanding, data retrieval, analysis, and response generation through an integrated processing pipeline.
+
+**Multi-Source Data Integration**
+The agent seamlessly connects to and processes data from multiple sources including Amazon Ads API, social media platforms, and market intelligence providers. Real-time data synchronization ensures users always receive current advertising insights and recommendations.
+
+**Intelligent Query Processing**
+Advanced natural language processing enables the agent to understand complex advertising queries and business contexts. The system leverages Snowflake Cortex Search for semantic data retrieval, delivering relevant insights with sub-200ms response times.
+
+#### Processing Pipeline & Capabilities
+
+**Context-Aware Analysis**
+The agent maintains conversation context throughout interactions, enabling natural multi-turn conversations that build upon previous insights. This persistent memory allows for more sophisticated advisory conversations tailored to individual seller needs.
+
+**Strategic Insight Generation**
+Integrated ML models analyze advertising data to identify optimization opportunities, trend analysis, and strategic recommendations. The agent combines data intelligence with business logic to provide actionable insights for campaign improvement.
+
+**Scalable Performance Architecture**
+Built on FastAPI with async processing capabilities, the system handles concurrent user interactions efficiently. The agent architecture supports horizontal scaling to accommodate growing user bases while maintaining response quality.
 
 ### Data Sources and Integration
 
@@ -145,7 +169,7 @@ This architecture enables PulsyAI to deliver enterprise-grade AI insights with s
 - Industry-leading framework for production-grade conversational AI with stateful memory management
 - Custom LangGraph workflows for multi-step advertising analysis, integrated prompt versioning system
 
-**Snowflake Cortex AI**
+**Snowflake Cortex Search**
 - Only solution providing in-warehouse vector operations at scale with built-in LLM capabilities
 - Real-time semantic search across 50M+ advertising records with sub-200ms response times
 

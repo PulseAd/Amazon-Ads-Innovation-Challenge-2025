@@ -79,7 +79,7 @@ This iterative approach ensures thorough analysis while maintaining conversation
 
 #### Data Query Architecture & Semantic Search
 
-![Agent Query Architecture Diagram](agent_query_diagram.png)
+![Agent Query Architecture Diagram](agent_flow_query_diagram.png)
 
 **Intelligent Data Discovery System**
 PulsyAI employs a sophisticated data discovery mechanism that transforms raw database schemas and examples into searchable knowledge repositories. This system enables natural language queries to be automatically translated into precise data operations.

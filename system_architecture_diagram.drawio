@@ -1,0 +1,285 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="System Architecture" id="system-architecture">
+    <mxGraphModel dx="1234" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="System Architecture Diagram&#xa;AI-Powered Amazon Ads Intelligence Platform" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="627" y="30" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="user" value="👤 User&#xa;Natural Language Query" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#01579b;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="queryInterface" value="🎯 Query Interface&#xa;Input Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#01579b;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="250" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agentSystemContainer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;strokeWidth=3;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="100" width="700" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="agentSystemTitle" value="🧠 Intelligent Core: Multi-Agent Swarm" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="650" y="110" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="supervisorAgent" value="🎖️ Supervisor Agent&#xa;Task Decomposition&#xa;&amp; Orchestration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="150" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="workerAgentsContainer" target="reactContainer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="workerAgentsContainer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f0ff;strokeColor=#6a1b9a;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="240" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="workerAgentsTitle" value="👥 Worker Agents" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="260" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dataAgent" value="📊 Data Retrieval&#xa;Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="320" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="analysisAgent" value="📈 Performance&#xa;Analysis Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="580" y="319" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="strategyAgent" value="🎯 Strategy&#xa;Generation Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="670" y="319" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reportAgent" value="📋 Reporting&#xa;Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="757" y="319" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reactContainer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#3f51b5;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="240" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="reactTitle" value="⚡ ReAct Cycle" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="940" y="260" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="thought" value="🤔 Thought" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#3f51b5;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="870" y="290" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="action" value="⚡ Action" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#3f51b5;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="960" y="360" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="observation" value="👀 Observation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#3f51b5;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="290" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="synthesis" value="🔄 Synthesis &amp;&#xa;Collaboration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;strokeWidth=2;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="598" y="450" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dataFoundationContainer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;strokeWidth=3;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="600" width="1010" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="dataFoundationTitle" value="🏗️ Unified Data Foundation" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="480" y="610" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="amazonEcoContainer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#33691e;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="780" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="amazonEcoTitle" value="🛒 Amazon Ecosystem Deep Dive" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="235" y="800" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ams" value="📡&lt;div&gt;Amazon Marketing&lt;br&gt;Stream&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="185" y="840" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="amc" value="☁️&lt;div&gt;Amazon Marketing&lt;br&gt;Cloud&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="405" y="840" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="adReports" value="📊&lt;div&gt;Reports&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="265" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sellerAPI" value="🔌&lt;div&gt;Seller Partner API&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="340" y="840" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="externalDataContainer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#33691e;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="780" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="externalDataTitle" value="🌐 External Intelligence" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="635" y="800" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="marketData" value="📈&lt;div&gt;Market Trend Data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="680" y="845" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thirdParty" value="🔗&lt;div&gt;3rd Party Data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="770" y="845" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bigDataPlatform" value="☁️ Scalable Big Data Platform&#xa;Cloud-based Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="660" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vectorSearch" value="🔍 Vector Search &amp;&#xa;Data Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="920" y="810" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="infraContainer" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;strokeWidth=3;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="350" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="infraTitle" value="🏛️ Infrastructure &amp; Security" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="130" y="370" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eventDriven" value="⚡ Event-Driven&#xa;Architecture&#xa;(Amazon Kinesis)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="90" y="430" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="security" value="🛡️ Security by Design&#xa;Guard Rails &amp;&#xa;Access Control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="290" y="435" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="realtime" value="⏱️ Real-time&#xa;Intelligence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="190" y="435" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="output" value="✨ Actionable Strategy&#xa;&amp; Recommendations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=2;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="user" target="queryInterface" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="queryInterface" target="supervisorAgent" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" parent="1" source="supervisorAgent" target="dataAgent" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="300" />
+              <mxPoint x="525" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" parent="1" source="supervisorAgent" target="analysisAgent" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="300" />
+              <mxPoint x="615" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" parent="1" source="supervisorAgent" target="strategyAgent" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" parent="1" source="supervisorAgent" target="reportAgent" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3f51b5;" parent="1" source="thought" target="action" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3f51b5;" parent="1" source="action" target="observation" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3f51b5;dashed=1;" parent="1" source="observation" target="thought" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" parent="1" source="dataAgent" target="synthesis" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="390" />
+              <mxPoint x="670" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" parent="1" source="analysisAgent" target="synthesis" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="390" />
+              <mxPoint x="670" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" parent="1" source="strategyAgent" target="synthesis" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="390" />
+              <mxPoint x="670" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" parent="1" source="reportAgent" target="synthesis" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="390" />
+              <mxPoint x="670" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;" parent="1" source="supervisorAgent" target="output" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dataArrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#1b5e20;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vectorSearch" target="bigDataPlatform" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="995" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="infraArrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#e65100;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bigDataPlatform" target="eventDriven" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="infraArrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#e65100;" parent="1" source="eventDriven" target="realtime" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" edge="1" parent="1" source="reportAgent" target="synthesis">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="360" as="sourcePoint" />
+            <mxPoint x="555" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="795" y="390" />
+              <mxPoint x="670" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#4a148c;" edge="1" parent="1" source="reportAgent" target="synthesis">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="360" as="sourcePoint" />
+            <mxPoint x="555" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="795" y="390" />
+              <mxPoint x="670" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-3" value="📱&lt;div&gt;Social Media&lt;br&gt;Trends&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="590" y="845" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;strokeColor=#E65100;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="bigDataPlatform" target="security">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;strokeColor=#4A148C;" edge="1" parent="1" source="security" target="agentSystemContainer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#1b5e20;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dataAgent">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1295" y="810" as="sourcePoint" />
+            <mxPoint x="1030" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="508" y="580" />
+              <mxPoint x="1030" y="580" />
+              <mxPoint x="1030" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#1b5e20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="externalDataContainer" target="bigDataPlatform">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="860" as="sourcePoint" />
+            <mxPoint x="990" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="760" />
+              <mxPoint x="610" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dobYgceN-tJsPoWtMcEm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#1b5e20;exitX=0.482;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="amazonEcoContainer" target="bigDataPlatform">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="820" as="sourcePoint" />
+            <mxPoint x="650" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="324" y="760" />
+              <mxPoint x="610" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
